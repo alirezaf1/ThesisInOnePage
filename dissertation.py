@@ -22,7 +22,7 @@ text = open(path.join(d, 'mydissertation.txt')).read()
 wordcount = Counter(text.split())
 
 # read the mask / color image taken from the image
-grad_coloring = np.array(Image.open(path.join(d, "Graduation-cap-blue-clipart - Copy (2).jpg")))
+grad_coloring = np.array(Image.open(path.join(d, "Graduation-cap-blue.jpg")))
 stopwords = set(STOPWORDS)
 stopwords.update(('Figure', 'based', 'et', 'al','Therefore','used', 'using', 'show', 'shown' 'and','I','A','And','So','arnt','This','When','It','many','Many','so','cant','Yes','yes','No','no','These','these'))
 
